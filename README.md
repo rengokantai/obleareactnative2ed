@@ -26,3 +26,8 @@ _handleTextChange = event =>{
   this.setState({zip:event.nativeEvent.text})
 }
 ```
+
+## Chapter 4. Components for Mobile
+```resizeMode``` prop, for instance, which can be set to ```contain```, ```cover```, or ```stretch```
+
+The <TouchableHighlight> component also gives you hooks for events such as onPressIn, onPressOut, onLongPress, and the like, so you can use these events in your React applications.
